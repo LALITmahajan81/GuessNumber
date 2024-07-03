@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://w0.peakpx.com/wallpaper/365/546/HD-wallpaper-fantasy-landscape-mountains-wanderer-hills-field-artwork-fantasy.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.container{
+    height:30vh;
+    background:transparent;
+    width:30vw;
+    border-radius: 3px;
+    backdrop-filter: blur(11px);
+    margin-left: 30vw;
+    margin-top:30vh;
+    box-shadow: 12px 12px 5px transparent;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    background-color: aquamarine;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 126, 163);
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: aquamarine rgb(3, 126, 163);
+}
+#intro{
+    color:rgb(255, 252, 252);
+    font-size: 35px;
+    font-family:'Garamond';
+    display: block;
+    margin-left: 7vw;
+}
+
+#input{
+    border-radius:5px;
+    height: 4vh;
+    width:8vw;
+    margin-top: 7vh;
+    margin-left: 7vw;
+     font-size: 20px;
+   background-color: rgb(197, 195, 195);
+}
+#check{
+    height: 5vh;
+    width:6vw;
+    font-size: 20px;
+    font-family: 'Garamond';
+    border-radius:5px;
+    background-color: rgb(11, 134, 235);
+    color:white;
+}
+#Hint{
+    color:rgb(203, 250, 230);
+    font-size: 20px;
+    font-family: "Libre Baskerville";
+    display: inline-block;
+    margin-top: 4vh;
+    margin-left: 5vw;
+   
+}
